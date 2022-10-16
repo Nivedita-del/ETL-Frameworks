@@ -1,0 +1,6 @@
+Loaders/RDSLoader.class
+Extractors/RedshiftExtractor.class
+Extractors/RdsExtractor.class
+com/rds2red/etl/EtlApplication.class
+Loaders/RedshiftLoader.class
+Connectors/DBConnector.class

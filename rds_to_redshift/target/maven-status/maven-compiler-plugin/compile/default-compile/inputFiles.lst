@@ -1,0 +1,6 @@
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/com/rds2red/etl/EtlApplication.java
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/Extractors/RedshiftExtractor.java
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/Loaders/RedshiftLoader.java
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/Extractors/RdsExtractor.java
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/Loaders/RDSLoader.java
+/home/x3x0n/Documents/pratice/nive/etl/src/main/java/Connectors/DBConnector.java
