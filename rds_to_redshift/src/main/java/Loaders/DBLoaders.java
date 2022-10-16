@@ -17,10 +17,10 @@ public class DBLoaders {
     public DBConnector connector;
 
     public ResultSet RDSLoader() throws SQLException {
-        Connection con = connector.RdsConnector();
-        Statement statement = con.createStatement();
-        ResultSet res = statement.executeQuery("");
-        return res;
+        Connection loadcon = connector.RedshiftConnector();
+        ResultSet loadres = extractors.RDSExtractor();
+        Statement statement = loadcon.createStatement();
+        return loadres;
     }
     public ResultSet RDSExtractor() throws SQLException {
         Connection con = connector.RdsConnector();
